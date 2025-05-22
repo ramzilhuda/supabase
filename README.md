@@ -1,11 +1,10 @@
 # Cara Membuat Halaman Login dengan database Supabase
-
-Tampilan halaman login 
+## Halaman Login
+ 
 ![Image](https://github.com/user-attachments/assets/228e5d01-e69a-48fd-8b2e-05b6f5de1d4f)
 
 ## Halaman Home
 ![Image](https://github.com/user-attachments/assets/762905d7-e6a9-4d32-9071-bc08f281aad1)
-Tampilan Halaman Home
 
 
 This project is a starting point for a Flutter application.
