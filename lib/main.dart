@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:supabase_app/pages/login_screen.dart';
+import 'package:supabase_app/pages/splash_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 Future<void> main() async {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }
