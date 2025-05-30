@@ -1,7 +1,10 @@
 # Cara Membuat Halaman Login dengan database Supabase
 ## Halaman Login
  
-![Image](https://github.com/user-attachments/assets/228e5d01-e69a-48fd-8b2e-05b6f5de1d4f)
+![Image](https://github.com/user-attachments/assets/4ec384ab-cba8-422c-b373-767de1ee417c)
+
+## Halaman Register
+![Image](https://github.com/user-attachments/assets/abb1e8b6-6699-4bd7-92e8-ec41036de849)
 
 ## Halaman Home
 ![Image](https://github.com/user-attachments/assets/762905d7-e6a9-4d32-9071-bc08f281aad1)
