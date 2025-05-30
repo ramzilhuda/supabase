@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supabase_app/pages/register_screen.dart';
 import 'package:supabase_app/services/auth_service.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -97,7 +98,29 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: CircularProgressIndicator(
                         color: Colors.blue,
                       ),
-                    )
+                    ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("Belum punya akun? "),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => RegisterScreen()),
+                      );
+                    },
+                    child: Text(
+                      "Daftar",
+                      style: TextStyle(
+                        color: Colors.blue,
+                        decoration: TextDecoration.underline,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),

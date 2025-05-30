@@ -14,15 +14,17 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 6), () {
-      Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const LoginScreen()));
+      Navigator.of(context)
+          .pushReplacement(MaterialPageRoute(builder: (context) {
+        return LoginScreen();
+      }));
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 176, 203, 250),
+      backgroundColor: const Color.fromARGB(255, 119, 164, 243),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
