@@ -1,4 +1,4 @@
-# Cara Membuat Halaman Login dengan database Supabase
+# Cara Membuat Halaman Authentication dengan Supabase
 ## Halaman Login
  
 ![Image](https://github.com/user-attachments/assets/4ec384ab-cba8-422c-b373-767de1ee417c)
